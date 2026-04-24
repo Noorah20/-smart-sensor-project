@@ -1,15 +1,15 @@
 # 🚀 Smart System
 
 ## ✨ Overview
-نظام بسيط يستخدم الحساسات لقراءة البيانات من البيئة والتفاعل معها بشكل لحظي.
+A simple sensor-based system that reads data from the environment and responds in real time.
 
 ## 💡 Idea
-تحويل قراءات الحساسات إلى استجابة واضحة ومباشرة.
+Convert sensor readings into clear and direct actions.
 
 ## ⚙️ How it works
-- الحساسات تجمع البيانات  
-- المتحكم يعالجها  
-- النظام يعطي مخرج (LED / تنبيه)
+- Sensors collect data  
+- Microcontroller processes it  
+- System triggers output (LED / alert)
 
 ## 🛠️ Tools
 - Arduino / ESP32  
@@ -17,8 +17,8 @@
 - Arduino IDE  
 
 ## 🎯 Features
-- قراءة لحظية  
-- تصميم بسيط  
-- قابل للتطوير  
+- Real-time monitoring  
+- Simple design  
+- Easy to expand  
 
 ## 👩‍💻 Noorah
