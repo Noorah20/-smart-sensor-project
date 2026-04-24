@@ -21,4 +21,4 @@ Convert sensor readings into clear and direct actions.
 - Simple design  
 - Easy to expand  
 
-## 👩‍💻 Noorah
+## 👩‍💻 Noorah Bakhil
