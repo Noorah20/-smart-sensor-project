@@ -1,0 +1,31 @@
+int buttonPin = 2;
+int ledPin = 6;
+int buzzerPin = 7;
+
+bool state = false;
+bool lastButton = HIGH;
+
+void setup() {
+  pinMode(buttonPin, INPUT_PULLUP);
+  pinMode(ledPin, OUTPUT);
+  pinMode(buzzerPin, OUTPUT);
+}
+
+void loop() {
+  bool currentButton = digitalRead(buttonPin);
+
+  if (lastButton == HIGH && currentButton == LOW) {
+    state = !state;
+    delay(200);
+  }
+
+  lastButton = currentButton;
+
+  if (state) {
+    digitalWrite(ledPin, HIGH);
+    tone(buzzerPin, 500);
+  } else {
+    digitalWrite(ledPin, LOW);
+    noTone(buzzerPin);
+  }
+}
